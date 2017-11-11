@@ -7,6 +7,7 @@ body {
 	line-height: 1.4;
 	background-color: #ffffff;
 }
+
 header {
 	background-color: #ffffff;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 1px 0 rgba(0, 0, 0, 0.12), 0 1px 1px -2px rgba(0, 0, 0, 0.2);
@@ -16,6 +17,7 @@ header {
 	padding: 10px 15px;
 	font-size: 31px;
 }*/
+
 nav {
 	background-color: #39495C;
 	padding-top: 15px;
@@ -23,6 +25,7 @@ nav {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
+
 nav a {
 	color: rgba(255, 255, 255, 0.5);
 	padding: 10px 15px;
@@ -33,17 +36,20 @@ nav a {
 	border-radius: 2px;
 	transition: color 300ms 0s ease;
 }
+
 nav a:hover {
 	background-color: rgba(0, 0, 0, 0.2);
 	color: #ffffff;
-
 }
+
 nav li {
 	list-style: none;
 }
+
 a {
 	text-decoration: none;
 }
+
 .wrapper {
 	margin: 0 auto;
 	background-color: #EDF0F1;
@@ -58,10 +64,8 @@ h1 {
 	padding: 15px 25px 15px 25px;
 	justify-content: space-between;
 	height: 130px;
-
-<<<<<<< HEAD
-=======
 }
+
 .logo {
     width: 110px;
     background-image: url(../images/logo.png);
@@ -70,6 +74,7 @@ h1 {
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .circle-container {
     width: 85px;
     height: 85px;
@@ -82,16 +87,16 @@ h1 {
     background-repeat: no-repeat;
 }
 
-
->>>>>>> 6e783383ef4fd86ba559acea4f0717375aa2e1a6
-
 /* Globals */
 .flex-container {
 	display: flex;
-	justify-content: space-evenly;
 }
 
 /* Flex Box Unit */
+
+.rows-wrap {
+	justify-content: space-evenly;
+}
 
 .row1{
 	flex-direction: column;
@@ -106,6 +111,7 @@ h1 {
 .row3 {
 	flex-direction: column;
 	text-align: center;
+	justify-content: space-evenly;
 }
 
 .card-container {
