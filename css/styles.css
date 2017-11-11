@@ -1,7 +1,36 @@
 body {
 	width: 90%;
 	margin: 0 auto;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 1.4;
+	background-color: #ffffff;
+}
+nav {
+
 }
 .wrapper {
-	
+	margin: 0 auto;
+	background-color: #EDF0F1;
+	width: 100%;
 }
+h1 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+
+
+
+
+/* Globals */
+.flex-container {
+	display: flex;
+}
+
+
+
+
