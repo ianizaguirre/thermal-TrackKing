@@ -48,16 +48,26 @@ h1 {
 
 
 
-
-
-
-
-
 /* Globals */
 .flex-container {
 	display: flex;
+	justify-content: space-evenly;
 }
 
+/* Flex Box Unit */
 
+.row1{
+	flex-direction: column;
+}
 
+.row2{
+	flex-direction: column;
+}
 
+.card-container{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border: 1px solid black;
+	border-radius: 6%;
+	width: 350px;
+}
