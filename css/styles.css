@@ -11,10 +11,11 @@ header {
 	background-color: #ffffff;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 1px 0 rgba(0, 0, 0, 0.12), 0 1px 1px -2px rgba(0, 0, 0, 0.2);
 }
-header h1 {
+/*header h1 {
 	margin: 0;
 	padding: 10px 15px;
-}
+	font-size: 31px;
+}*/
 nav {
 	background-color: #39495C;
 	padding-top: 15px;
@@ -25,6 +26,8 @@ nav {
 nav a {
 	color: rgba(255, 255, 255, 0.5);
 	padding: 10px 15px;
+	font-size: 14px;
+	font-weight: 400;
 }
 nav a:hover {
 	background-color: rgba(0, 0, 0, 0.2);
@@ -42,14 +45,36 @@ a {
 	background-color: #EDF0F1;
 	width: 100%;
 }
+
 h1 {
 	font-family: 'Montserrat', sans-serif;
 }
 
+.avatars-row {
+	padding: 15px 25px 15px 25px;
+	justify-content: space-between;
+	height: 130px;
 
-
-
-
+}
+.logo {
+    width: 110px;
+    background-image: url(../images/logo.png);
+    background-size: 135%;
+    vertical-align: baseline;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.circle-container {
+    width: 85px;
+    height: 85px;
+    align-self: center;
+    background-image: url(../images/avatar.png);
+    border-radius: 50%;
+    background-size: 100%;
+    vertical-align: baseline;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
 
 
 
