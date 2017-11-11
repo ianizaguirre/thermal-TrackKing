@@ -76,7 +76,8 @@ h1 {
 	margin-bottom: 30px;
 	border: 1px solid black;
 	border-radius: 15px;
-	width: 350px;
+	width: 510px;
+	padding-bottom: 50px;
 }
 
 .critical-area {
@@ -84,5 +85,6 @@ h1 {
 	border-radius: 15px;
 	margin: 0 auto;
 	margin-bottom: 40px;
-	width: 850px;
+	width: 1050px;
+	padding-bottom: 71px;
 }
