@@ -336,6 +336,12 @@ footer {
 }
 
 
+.hide-this {
+	display: none;
+}
 
-
+.loader-hides-this {
+	background: lightgray;
+	opacity: 0;
+}
 
