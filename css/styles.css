@@ -46,6 +46,40 @@ a {
 	text-decoration: none;
 }
 
+.timer {
+	color: rgba(255, 255, 255, 0.5);
+	padding: 10px 15px;
+	font-size: 30px;
+	font-weight: 500;
+	transition: color 300ms 0s ease;
+	margin: 0;
+}
+button {
+	font-size: 14px;
+	text-shadow: none;
+	color: #5bc0de;
+	padding: 5px 20px;
+	line-height: 1.4;
+	vertical-align: middle;
+	display: inline-block;
+	cursor: pointer;
+	border: 1px solid #5bc0de; /*1px solid transparent;*/
+	border-radius: 4px;
+	background-color: #fff;
+	transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease, width 0.3s ease, opacity 0.3s ease;
+	outline: none;
+	white-space: nowrap;
+	top: 0px;
+	position: relative;
+}
+button:hover {
+	color: #85D0D2;
+	border-color: #85D0D2;
+}
+button:active {
+	top: 1px;
+}
+
 .wrapper {
 	margin: 0 auto;
 	background-color: #EDF0F1;
