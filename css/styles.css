@@ -257,6 +257,14 @@ h3.card-name{
 	padding-right: 8px;
 	padding-left: 10px;
 }
+.card-data-big-pulse::after {
+    font-size: 21px;
+    content: 'BPMs';
+    font-weight: 300;
+    padding-left: 1px;
+    font-size: 14px;
+}
+
 .card-data-small {
 	font-weight: 500;
 	font-size: 18px;
@@ -278,6 +286,7 @@ display: none;    /* ------------- Dont need this so far */
     font-size: 21px;
     content: '℉';
 }
+
 .card-data-monitor {
 	font-weight: 500;
 	font-size: 24px;

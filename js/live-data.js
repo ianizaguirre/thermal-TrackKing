@@ -4,8 +4,8 @@
 ======= Vars
 ============ */
 
-let currentTemp = document.querySelector('.card-data-big-temp');
-let currentPulse = document.querySelector('.card-data-big-pulse');
+let currentTemp = document.querySelectorAll(".card-data-big-temp");
+let currentPulse = document.querySelectorAll(".card-data-big-pulse");
 
 
 // let putTempSign = '<span class="deg-f">℉</span>';
@@ -31,12 +31,18 @@ function showRandomTemps( upper, lower, htmlArea ) {
 
 window.addEventListener('load', function() {
 
-	setInterval( function() {
-		showRandomTemps( 78, 72, currentTemp );
-	}, 1200 );
+	
+		setInterval( () => {
+			currentTemp.forEach( oneTemp => {
+				showRandomTemps( 78, 72, oneTemp );
+			});
+		}, 1200 );
+	
 
-	setInterval( function() {
-		showRandomTemps( 87, 68, currentPulse );
+	setInterval( () => {
+		currentPulse.forEach( onePulse => {
+		showRandomTemps( 87, 68, onePulse );
+		});
 	}, 1700 );
 
 }, false); // End Event
