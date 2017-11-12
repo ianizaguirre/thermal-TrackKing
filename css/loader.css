@@ -28,10 +28,16 @@
 
 
 /* =================== */
+.flex-container-circle {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
 .circle-wrapper {
      display: none; 
     position: fixed;
-    left: 39%;
+    left: 0;
     top: 26%;
     bottom: 0;
     right: 0;

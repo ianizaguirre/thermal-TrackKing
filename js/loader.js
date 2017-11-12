@@ -31,10 +31,10 @@ function showLoader() {
 function thenHideLoader() {
 	
 	var x = setTimeout( function() {
-	loader.style.display = 'none';
-	circleWrapper.style.display = 'none';
+	// loader.style.display = 'none';
+	// circleWrapper.style.display = 'none';
 
-	$('.bro').removeClass('loader-hides-this');
+	// $('.bro').removeClass('loader-hides-this');
 	}, 600);
 }
 
@@ -48,4 +48,5 @@ showLoader();
 setTimeout(function(){ 
 	thenHideLoader();
 	 }, 1500);
+
 
