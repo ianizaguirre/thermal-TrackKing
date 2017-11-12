@@ -348,9 +348,17 @@ footer {
 	padding-bottom: 25px;
 }
 
-
-
 .container {
   width: 80%;
   margin: 20px auto;
+}
+
+.legend { list-style: none; }
+.legend span { border: 1px solid #ccc; float: left; width: 12px; height: 12px; margin: 2px; }
+/* your colors */
+.legend .heart { background-color: #F2C732; margin-top: 15px; }
+.legend .temp { background-color: #65B6DE; margin-top: 15px; }
+.legend {
+	margin-right: 850px;
+	line-height: 40px;
 }
