@@ -260,7 +260,8 @@ h3.card-name{
 .card-data-small {
 	font-weight: 500;
 	font-size: 18px;
-	display: flex;
+/*	display: flex;*/
+display: none;    /* ------------- Dont need this so far */
 }
 .arrow {
 	padding-left: 5px;
