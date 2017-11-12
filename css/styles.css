@@ -117,6 +117,10 @@ h1 {
     background-repeat: no-repeat;
 }
 
+.time-wrap {
+	text-align: center;
+}
+
 /* Globals */
 .flex-container {
 	display: flex;
@@ -284,4 +288,12 @@ footer {
 	background-color: #39495C;
 	padding-bottom: 25px;
 }
+
+
+
+
+
+
+
+
 
