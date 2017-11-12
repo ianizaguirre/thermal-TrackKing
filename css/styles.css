@@ -273,8 +273,9 @@ h3.card-name{
 	padding-left: 10px;
 	display: flex;
 }
-.deg-f {
-	font-size: 21px;
+.card-data-big-temp::after {
+    font-size: 21px;
+    content: '℉';
 }
 .card-data-monitor {
 	font-weight: 500;
