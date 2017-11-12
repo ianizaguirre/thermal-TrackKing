@@ -12,11 +12,7 @@ header {
 	background-color: #ffffff;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 1px 0 rgba(0, 0, 0, 0.12), 0 1px 1px -2px rgba(0, 0, 0, 0.2);
 }
-/*header h1 {
-	margin: 0;
-	padding: 10px 15px;
-	font-size: 31px;
-}*/
+
 
 nav {
 	background-color: #39495C;
@@ -67,7 +63,7 @@ h1 {
 }
 
 .logo {
-    width: 110px;
+    width: 115px;
     background-image: url(../images/logo.png);
     background-size: 135%;
     vertical-align: baseline;
@@ -98,30 +94,21 @@ h1 {
 	justify-content: space-evenly;
 }
 
-.row1{
+.row1, .row2, .row3 {
 	flex-direction: column;
-	text-align: center;
+	flex-wrap: nowrap;
+	margin-bottom: 15px;
+	padding-right: 15px;
+	padding-left: 15px;
 }
 
-.row2{
-	flex-direction: column;
-	text-align: center;
-}
+
 
 .row3 {
-	flex-direction: column;
 	text-align: center;
 	justify-content: space-evenly;
 }
 
-.card-container {
-	margin-top: 60px;
-	margin-bottom: 30px;
-	border: 1px solid black;
-	border-radius: 15px;
-	width: 510px;
-	padding-bottom: 50px;
-}
 
 .critical-area {
 	border: 1px solid black;
@@ -132,3 +119,128 @@ h1 {
 	width: 1067px;
 	padding-bottom: 71px;
 }
+
+.card-container {
+	margin-top: 60px;
+	width: 500px;
+	height: 250px;
+
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+
+.card-container {
+	background-color: #fff; /* #95a5a6;*/
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    transition: opacity .15s linear;
+}
+
+h3.card-name{
+	background-color: #3498db;
+	color: #fff;
+
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: .5px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    height: 58px;
+    line-height: 58px;
+    padding: 0 30px;
+}
+
+
+.content-wrapper {
+	padding: 0 30px;
+}
+.card-content-left {
+	padding: 15px 15px 15px 0;
+}
+.card-content-right {
+    padding: 15px 10px 0 15px;
+    background: #f5f5f5;
+    height: 98px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    margin-left: 37px;
+}
+
+.card-data-big-pulse {
+	font-weight: 500;
+	font-size: 40px;
+	padding-right: 8px;
+	padding-left: 10px;
+}
+.card-data-small {
+	font-weight: 500;
+	font-size: 18px;
+}
+
+.card-data-big-temp {
+	font-weight: 500;
+	font-size: 40px;
+	padding-right: 8px;
+	padding-left: 10px;
+}
+.deg-f {
+	font-size: 21px;
+}
+.temperature-label {
+	text-transform: capitalize;
+	font-weight: 300;
+	font-size: 23px;
+	padding-left: 9px;
+}
+
+/* BackEnd Lights */
+
+.status-okay {
+	background-color: #27ae60 !important;
+	color: #ffffff !important;
+}
+.status-danger {
+	background-color: #d35400 !important;
+	color: #ffffff !important;
+}
+
+/* ---------- Heart Beating */
+.fa-beat {
+  animation: fa-beat 5s ease infinite;
+}
+@keyframes fa-beat {
+  0% {
+    transform:scale(1);
+  }
+  5% {
+    transform:scale(1.25);
+  }
+  20% {
+    transform:scale(1);
+  }
+  30% {
+    transform:scale(1);
+  }
+  35% {
+    transform:scale(1.25);
+  }
+  50% {
+    transform:scale(1);
+  }
+  55% {
+    transform:scale(1.25);
+  }
+  70% {
+    transform:scale(1);
+  }
+}
+
+.heart {
+  color:red;
+  display: inline-block;
+}
+/* ---------- Heart Beating  ---- END --- */
+
+
+
