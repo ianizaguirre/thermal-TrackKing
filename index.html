@@ -283,12 +283,19 @@
 
 <script>
 	"use strict";
-  const socket = io();
-  socket.on('connect', ()=> {
-  	socket.on('temp-ui', (data)=> {
-  		console.log('data');
-  	});
-  });
+
+var socket = io('http://8cffa854.ngrok.io');
+socket.on('connect',()=>{
+  console.log('Connected');
+  
+});
+socket.on('temp-ui', (data)=>{
+    console.log(data.temp);
+    $(".card-data-big-temp").each((i, el) => {
+    	data.temp && $(el).text(data.temp);
+    });
+});
+
 </script>
 
 </body>

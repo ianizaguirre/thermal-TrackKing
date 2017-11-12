@@ -20,9 +20,8 @@ function getRandomNumbers( upper, lower ) {
 	  
 }
 
-function showRandomTemps( upper, lower, htmlArea ) {
-	let result = getRandomNumbers( upper, lower );
-		htmlArea.textContent = result;
+function update( value, htmlArea ) {
+		htmlArea.textContent = value;
 }
 
 /* ========
@@ -32,16 +31,16 @@ function showRandomTemps( upper, lower, htmlArea ) {
 window.addEventListener('load', function() {
 
 	
-		setInterval( () => {
-			currentTemp.forEach( oneTemp => {
-				showRandomTemps( 78, 72, oneTemp );
-			});
-		}, 1200 );
+		// setInterval( () => {
+		// 	currentTemp.forEach( oneTemp => {
+		// 		showRandomTemps( 78, 72, oneTemp );
+		// 	});
+		// }, 1200 );
 	
 
 	setInterval( () => {
 		currentPulse.forEach( onePulse => {
-		showRandomTemps( 87, 68, onePulse );
+			update( getRandomNumbers( 87, 68), onePulse );
 		});
 	}, 1700 );
 
