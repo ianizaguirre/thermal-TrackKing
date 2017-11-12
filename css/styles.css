@@ -5,7 +5,7 @@ body {
 	font-weight: 300;
 	font-size: 18px;
 	line-height: 1.4;
-	background-color: #ffffff;
+	background-color: #222;
 }
 
 header {
@@ -216,7 +216,19 @@ h3.card-name{
     flex-direction: column;
 }
 .card-content-chart {
-	padding: 15px;
+	margin-top: 15px;
+    margin-left: 15px;
+}
+.monitor-btn {
+	color: #333;
+	border: 1px solid #ccc;
+	background-color: #fff;
+}
+.monitor-btn:hover {
+	opacity: 0.7;
+	color: #333;
+	border: 1px solid #ccc;
+	background-color: #fff;
 }
 
 .card-data-big-pulse {
@@ -244,12 +256,13 @@ h3.card-name{
 .deg-f {
 	font-size: 21px;
 }
-/*.temperature-label {
-	text-transform: capitalize;
-	font-weight: 300;
-	font-size: 23px;
-	padding-left: 9px;
-}*/
+.card-data-monitor {
+	font-weight: 500;
+	font-size: 24px;
+	padding-right: 8px;
+	padding-left: 10px;
+	display: flex;
+}
 
 /* BackEnd Lights */
 
@@ -301,6 +314,12 @@ h3.card-name{
   color:red;
   display: inline-block;
   padding-left: 22px;
+}
+.info {
+  color: #cccccc;
+  opacity: 0.9;
+  display: inline-block;
+  padding-left: 25px;
 }
 /* ---------- Heart Beating  ---- END --- */
 

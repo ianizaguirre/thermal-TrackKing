@@ -15,7 +15,7 @@ var lineChartData = {
         data: [60, 10, 40, 30, 80, 30, 20]
     }]
 
-}
+};
 
 Chart.defaults.global.animationSteps = 50;
 Chart.defaults.global.tooltipYPadding = 16;
