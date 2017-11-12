@@ -201,6 +201,7 @@ h3.card-name{
 	padding: 0 30px;
 	justify-content: space-evenly;
 }
+
 .card-content-left {
 	padding: 15px 15px 15px 0;
 	display: flex;
@@ -223,8 +224,27 @@ h3.card-name{
 	color: #333;
 	border: 1px solid #ccc;
 	background-color: #fff;
+	-webkit-box-shadow:0 0 11px #51A629;
+  -moz-box-shadow: 0 0 11px #51A629;
+  box-shadow:0 0 11px #51A629;
 }
 .monitor-btn:hover {
+	opacity: 0.7;
+	color: #333;
+	border: 1px solid #ccc;
+	background-color: #fff;
+}
+
+.monitor-btn-red {
+	color: #333;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	-webkit-box-shadow:0 0 11px #E53D36;
+  -moz-box-shadow: 0 0 11px #E53D36;
+  box-shadow:0 0 11px #E53D36;
+}
+
+.monitor-btn-red:hover {
 	opacity: 0.7;
 	color: #333;
 	border: 1px solid #ccc;
@@ -334,8 +354,3 @@ footer {
   width: 80%;
   margin: 20px auto;
 }
-
-
-
-
-
