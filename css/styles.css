@@ -141,12 +141,17 @@ h1 {
 
 .row1, .row2, .row3 {
 	flex-direction: column;
-	flex-wrap: nowrap;
+	flex-wrap: wrap;
+	flex: 1;
 	margin-bottom: 15px;
 	padding-right: 15px;
 	padding-left: 15px;
 }
-
+@media (max-width: 400px) {
+  .flex-container {
+    display: block;
+  }
+}
 
 
 .row3 {
@@ -220,10 +225,16 @@ h3.card-name{
 	margin-top: 15px;
     margin-left: 15px;
 }
+
 .monitor-btn {
 	color: #333;
 	border: 1px solid #ccc;
-	background-color: #fff;
+	background-color: #fff;.flex-container-circle {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
 /*	-webkit-box-shadow:0 0 11px #51A629;
   -moz-box-shadow: 0 0 11px #51A629;
   box-shadow:0 0 11px #51A629;*/
@@ -242,13 +253,6 @@ h3.card-name{
 	-webkit-box-shadow:0 0 11px #E53D36;
   -moz-box-shadow: 0 0 11px #E53D36;
   box-shadow:0 0 11px #E53D36;
-}
-
-.monitor-btn-red:hover {
-	opacity: 0.7;
-	color: #333;
-	border: 1px solid #ccc;
-	background-color: #fff;
 }
 
 .card-data-big-pulse {
@@ -354,7 +358,6 @@ footer {
 }
 
 
-
 .hide-this {
 	display: none;
 }
@@ -364,14 +367,30 @@ footer {
 	opacity: 0;
 }
 
+/* --------- Legend --------*/
+.legend {
+	list-style: none;
+}
 
-.legend { list-style: none; }
-.legend span { border: 1px solid #ccc; float: left; width: 12px; height: 12px; margin: 2px; }
-/* your colors */
-.legend .heart { background-color: #F2C732; margin-top: 15px; }
-.legend .temp { background-color: #65B6DE; margin-top: 15px; }
+.legend span {
+	border: 1px solid #ccc;
+	float: left;
+	width: 12px;
+	height: 12px;
+	margin: 2px;
+}
+
+.legend .heart {
+	background-color: #F2C732;
+	margin-top: 15px;
+}
+
+.legend .temp {
+	background-color: #65B6DE;
+	margin-top: 15px;
+}
+
 .legend {
 	margin-right: 850px;
 	line-height: 40px;
 }
-
