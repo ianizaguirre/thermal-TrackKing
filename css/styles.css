@@ -353,6 +353,7 @@ footer {
   margin: 20px auto;
 }
 
+<<<<<<< HEAD
 /* --------- Legend --------*/
 .legend {
 	list-style: none;
@@ -376,7 +377,27 @@ footer {
 	margin-top: 15px;
 }
 
+=======
+<<<<<<< HEAD
+
+.hide-this {
+	display: none;
+}
+
+.loader-hides-this {
+	background: lightgray;
+	opacity: 0;
+}
+
+=======
+.legend { list-style: none; }
+.legend span { border: 1px solid #ccc; float: left; width: 12px; height: 12px; margin: 2px; }
+/* your colors */
+.legend .heart { background-color: #F2C732; margin-top: 15px; }
+.legend .temp { background-color: #65B6DE; margin-top: 15px; }
+>>>>>>> 43506651476f32175e72bfcf152945142de22d8f
 .legend {
 	margin-right: 850px;
 	line-height: 40px;
 }
+>>>>>>> d368a5d562f48c0567cfc847e310260ec7314ace
